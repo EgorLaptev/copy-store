@@ -1,0 +1,37 @@
+.register {
+}
+
+.register__title {
+    font-size: 48px;
+    margin-bottom: 56px;
+}
+
+.register__container {
+    padding: 180px 8px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register__form {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 8px;
+}
+
+.register__input_submit {
+    grid-column: 1/-1;
+}
+
+.register__input_label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+}
+
+.register__checkbox {
+    margin-left: 8px;
+}

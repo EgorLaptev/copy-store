@@ -1,0 +1,25 @@
+.login {
+
+}
+
+.login__title {
+    font-size: 48px;
+    margin-bottom: 56px;
+}
+
+.login__container {
+    padding: 180px 8px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__form {
+    width: 90%;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+}

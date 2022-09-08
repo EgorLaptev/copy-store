@@ -1,0 +1,21 @@
+.contacts__container {
+    padding: 120px 8px;
+}
+
+.contacts__title {
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+
+.contacts__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+}
+
+.contacts__item {
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    padding: 8px 16px;
+}

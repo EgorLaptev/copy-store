@@ -1,0 +1,99 @@
+.admin__container {
+    padding: 120px 8px;
+}
+
+.admin__title {
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.orders__add,
+.goods__add {
+    background: transparent;
+    border: 1px solid #333;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.goods__title,
+.orders__title {
+    display: inline-block;
+    margin: 64px 16px 0 0;
+}
+
+.goods__list,
+.orders__list {
+    margin-top: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: 16px;
+}
+
+.goods__item,
+.orders__item {
+    width: 300px;
+    height: 160px;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    flex-shrink: 0;
+}
+
+.card {
+    position: relative;
+}
+
+.card__title {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.card__description {
+    font-size: 14px;
+}
+
+.card__accept {
+    height: 32px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-color: #3838d3;
+    color: #3838d3;
+    position: absolute;
+    bottom: 16px;
+    right: 108px;
+}
+
+.card__accept:hover {
+    background-color: #3838d3;
+}
+
+.card__remove {
+    height: 32px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-color: red;
+    color: Red;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.card__remove:hover {
+    background-color: red;
+}
+
+.card__status,
+.card__date {
+    color: #858585;
+    margin: 0 4px;
+    font-size: 14px;
+}
